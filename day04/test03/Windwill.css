@@ -1,0 +1,100 @@
+section {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url("./caodi.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    position: relative;
+}
+
+/* 鼠标放上时运动更快 持续时间为1s一圈 */
+div:hover:nth-child(1){
+    animation-duration: 1s;
+}
+div:hover:nth-child(2){
+    animation-duration: 1s;
+}
+div:hover:nth-child(3){
+    animation-duration: 1s;
+}
+
+div:active:nth-child(1) {
+    animation-name: none;
+    animation-duration: 0;
+}
+div:active:nth-child(2) {
+    animation-name: none;
+    animation-duration: 0;
+}
+div:active:nth-child(3) {
+    animation-name: none;
+    animation-duration: 0;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div:nth-child(1) {
+    width: 400px;
+    height: 400px;
+    background-image: url("./fengche.png");
+    background-size: contain;
+    position: absolute;
+    left: 139px;
+    top: -50px;
+    animation-name: rotate1;
+    animation-delay: 200ms;
+    animation-direction: reverse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; /* 次数 */
+    animation-timing-function: linear; /*匀速运动*/
+}
+
+div:nth-child(2){
+    width: 200px;
+    height: 200px;
+    background-image: url("./fengche.png");
+    background-size: contain;
+    position: absolute;
+    left: 413px;
+    top: 165px;
+    animation: rotate2 4s linear 200ms infinite reverse;
+}
+
+div:nth-child(3){
+    width: 300px;
+    height: 300px;
+    background-image: url("./fengche.png");
+    background-size: contain;
+    position: absolute;
+    left: 506px;
+    top: 80px;
+    animation: rotate3 4s linear 200ms infinite reverse;
+}

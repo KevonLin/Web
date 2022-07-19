@@ -1,0 +1,19 @@
+section {
+    width: 70%;
+    height: 500px;
+    background-color: cornflowerblue;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}

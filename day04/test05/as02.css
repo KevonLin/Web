@@ -1,0 +1,41 @@
+body {
+    width: 750px;
+    height: 1334px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.pic {
+    margin-top: 100px;
+}
+
+.wenzi {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.next {
+    margin-top: 100px;
+}
+
+.weidaoda2 {
+    position: relative;
+    bottom: 18px;
+    left: 40px;
+} 
+
+ .slide {
+    width: 750px;
+    margin-top: 80px;
+}

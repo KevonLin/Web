@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fixed position</title>
+</head>
+<style>
+    div{
+        width: 100%;
+        height: 100px;
+        background-color: aquamarine;
+    }
+
+    div:nth-child(1){
+        position: fixed;
+        /* 固定定位 */
+        z-index: 999;
+        /* 图层优先级：0-999 最低-最高 */
+    }
+
+    div:nth-child(2){
+        background-color: blueviolet;
+        height: 1000px;
+    }
+    
+</style>
+<body>
+    <div></div>
+    <div></div>
+</body>
+</html>

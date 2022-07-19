@@ -1,0 +1,350 @@
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url("./wood.png");
+    font-family:"苹方";
+}
+
+#BG {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.lable {
+    width: 780px;
+    height: 200px;
+    border-radius: 50px;
+    background-color: lightblue;
+    margin: auto;
+    box-shadow: 1px 2px 12px black ;
+}
+
+.lablelf {
+    position: relative;
+    right: 100px;
+}
+
+.lablerg {
+    position: relative;
+    left: 100px;
+}
+
+.lablelf1 {
+    background-image: url("./flower.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-color: lightgreen;
+    position: relative;
+    top: 100px;
+    z-index: 9;
+}
+
+.lablelf1 div:nth-child(1){
+    font-size: 48px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.lablelf1 div:nth-child(2){
+    font-size: 44px;
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+.lablelf1 div:nth-child(3){
+    font-size: 64px;
+    position: relative;
+    left: 580px;
+    top: -120px;
+}
+
+.lablelf1 div:nth-child(4){
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    bottom: 88px;
+    left: 30px;
+    background-image: url("./wood.png");
+}
+
+.lablerg1 {
+    background-color: #DEDEDC;
+    position: relative;
+    top: 80px;
+    z-index: 8;
+}
+
+.personal {
+    font-size: 36px;
+    position: relative;
+    top: -70px;
+    text-align: right;
+    right: 50px;
+}
+
+.lablerg1 div:nth-child(1) {
+    position: relative;
+    text-align: right;
+    top : 80px;
+    right: 350px;
+}
+
+.lablerg1 div:nth-child(3) {
+    position: relative;
+    text-align: right;
+    top : -37px;
+    right: 50px;
+}
+
+.lablerg1 div:nth-child(4) {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    background-image: url("./wood.png");
+}
+
+.lablelf2 {
+    background-color: #C4BE66;
+    position: relative;
+    top: 60px;
+    z-index: 7;
+}
+
+.lablelf2 div:nth-child(1) {
+    font-size: 36px;
+    position: relative;
+    top: 30px;
+    text-align: right;
+    right: 50px;
+}
+
+.lablelf2 div:nth-child(2) {
+    text-align: right;
+    position: relative;
+    right: 48px;
+    top: 40px;
+}
+
+.lablelf2 div:nth-child(3) {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-image: url("./wood.png");
+}
+.lablerg2 {
+    background-color: #BA8FBA;
+    position: relative;
+    top: 40px;
+    z-index: 6;
+}
+
+.lablerg2 div:nth-child(1) {
+    font-size: 36px;
+    position: relative;
+    top: 20px;
+    text-align: right;
+    right: 50px;
+    color: white;
+}
+
+.lablerg2 div:nth-child(2) {
+    text-align: right;
+    position: relative;
+    right: 48px;
+    top: 40px;
+}
+
+.lablerg2 div:nth-child(3) {
+    color: white;
+    position: relative;
+    top: 72px;
+    left: 40px;
+    font-size: 24px;
+}
+.lablerg2 div:nth-child(4) {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-image: url("./wood.png");
+}
+
+.lablelf3 {
+    background-color: #DC214C;
+    position: relative;
+    top: 20px;
+    z-index: 5;
+}
+
+.lablelf3 div:nth-child(1) {
+    font-size: 36px;
+    position: relative;
+    text-align: right;
+    top: 30px;
+    right: 50px;
+    color: white;
+}
+
+.lablelf3 div:nth-child(2) {
+    font-size: 24px;
+    position: relative;
+    color: white;
+    left: 10px;
+}
+
+.lablelf3 div:nth-child(3) {
+    position: relative;
+    text-align: right;
+    right: 50px;
+    top: 20px;
+}
+
+.lablelf3 div:nth-child(4) {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 15px;
+    left: 35px;
+    background-image: url("./wood.png");
+}
+
+.lablerg3 {
+    background-color: #E3EFC1;
+    position: relative;
+    z-index: 4;
+}
+
+.lablerg3 div:nth-child(1) {
+    font-size: 36px;
+    position: relative;
+    text-align: right;
+    right: 40px;
+    top: 20px;
+}
+
+.lablerg3 div:nth-child(2) {
+    position: relative;
+    text-align: right;
+    right: 40px;
+    top: 40px;
+}
+
+.lablerg3 div:nth-child(3) {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 45px;
+    left: 40px;
+    background-image: url("./wood.png");
+}
+
+.lablelf4 {
+    background-color: #D5C2D8;
+    position: relative;
+    top: -20px;
+    z-index: 3;
+}
+
+.lablelf4 div:nth-child(1) {
+    font-size: 36px;
+    text-align: right;
+    position: relative;
+    top: 30px;
+    right: 50px;
+}
+
+.lablelf4 p {
+    position: relative;
+    top: -20px;
+    left: 150px;
+}
+
+.lablerg4 {
+    background-color: #C1C1C1;
+    position: relative;
+    top: -40px;
+    z-index: 2;
+    color: white;
+    overflow: hidden;
+}
+
+.lablerg4 div:nth-child(1) {
+    font-size: 36px;
+    position: relative;
+    top: 50px;
+    left: 230px;
+}
+
+.lablerg4 div:nth-child(2) {
+    font-size: 48px;
+    position: relative;
+    text-align: right;
+    top: 50px;
+    right: 280px;
+    font-weight: bold;
+}
+
+.lablelf4 div:nth-child(3) {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    bottom: 75px;
+    left: 40px;
+    background-image: url("./wood.png");
+}
+#circle1 {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+    opacity: 0.4;
+}
+
+#circle2 {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 500px;
+    left: 300px;
+    opacity: 0.4;
+}
+
+#dong {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    bottom: 680px;
+    left: 40px;
+    background-image: url("./wood.png");
+}
